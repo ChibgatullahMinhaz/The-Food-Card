@@ -24,32 +24,25 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: aliceblue;
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
 }
-.logo h1 {
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  font-size: bolder;
+.navbar-toggler, .navbar-toggler-icon{
+  color: #fff;
 }
-#menu ul {
-  display: flex;
-  list-style: none;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2352C303' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.5 12.5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13z'/%3E%3C/svg%3E");
 }
-#menu ul li {
-  margin: 10px 20px 20px 0px;
+
+.brand{
+  font-weight: bold;
 }
-#menu ul li a {
-  text-decoration: none;
+.nav-link{
   color: white;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  transition: all 0.3s ease-in-out;
-}
-#menu ul li a:hover {
-  color: #0d9aa9;
 }
 .hero-content {
   height: 300px;
