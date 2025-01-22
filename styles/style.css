@@ -257,3 +257,9 @@ footer .about_content img{
     margin-top: 10px;
     width: 10%;
 }
+
+@media screen and (max-width:576px) {
+  .hero-content{
+    margin-top: 12rem;
+  }
+}
