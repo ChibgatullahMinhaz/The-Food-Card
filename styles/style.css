@@ -262,4 +262,14 @@ footer .about_content img{
   .hero-content{
     margin-top: 12rem;
   }
+  .cards{
+    flex-direction: column;
+  }
+  #Favorite_Brands h3 {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 1.4rem;
+    min-width: 100%;
+    color: blueviolet;
+  }
 }
